@@ -10,3 +10,11 @@ http://localhost:15672/
 uname and pass are both guest
 
 * create a spring project with rabbit mq where queue and exhnage must bec created
+
+* Request type from publisher :
+* POST method
+http://localhost:9000/publish
+{
+	"messageId":"1",
+	"message": "7"
+}
