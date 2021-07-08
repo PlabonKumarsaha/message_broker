@@ -14,7 +14,6 @@ uname and pass are both guest
 * Request type from publisher :
 * POST method
 http://localhost:9000/publish
-{
-	"messageId":"1",
-	"message": "7"
-}
+{ 
+	"name":"Your name"
+ }
